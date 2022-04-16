@@ -37,9 +37,9 @@ void loop() {
         toneVal = 2000+(int(sinVal*1000)); 
         tone(PinAlarm, toneVal); 
       delay(15); 
-} 
+      } 
    }
    
-      delay(75);
-      
+   delay(75);  
+   
 }
